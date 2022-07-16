@@ -1,7 +1,7 @@
 # minimalist-php-proxy
 Minimalist PHP Proxy
 
-'Proxy Me .PHP'
+'Proxy Me .PHP'<br>
 Uses a PHP-enabled server as a proxy meant to display webpages/images
 
 How it works:
@@ -10,11 +10,11 @@ How it works:
 3) iterate through the read URL file, replace links to point to proxyme.php (example below)
 4) echo output, replaced links will be loaded normally by browser through proxyme.php links
 
-Example link replacement:
-https://a.com/b.css?1 -> http://192.168.1.91/x/proxyme.php?url=https://a.com/b.css?1
+Example link replacement:<br>
+https://a.com/b.css?1 -> http://192.168.1.91/x/proxyme.php?url=https://a.com/b.css?1<br>
 //a.com/c.jpg -> http://192.168.1.91/x/proxyme.php?url=https://a.com/c.jpg
 
 
-Implementation note:
-Would need to change all references to "http://192.168.1.91/x/proxyme.php"
+Implementation note:<br>
+Would need to change all references to "http://192.168.1.91/x/proxyme.php"<br>
 in the proxyme.php file to its location on the new server
